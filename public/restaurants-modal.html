@@ -1,0 +1,55 @@
+<!-- this is a structure of Bootstrap Modal -->
+<div class="modal fade" id="restaurantModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document" >
+        <div class="modal-content">
+            <div class="modal-header bg-dark text-center">
+                <h3 class="modal-title text-light" id="restaurant_name">Modal title</h3>
+                <button type="button" class="close bg-light" data-dismiss="modal">
+                    <span>&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row text-center">
+                    <div class="col-5">
+                        <img class="img-fluid img-thumbnail" id="thumb">
+                    </div>
+                    <div class="col-7">
+                        <table class="table table-hover table-responsive table-sm">
+                            <tr>
+                                <td><span class="badge badge-pill badge-dark font-weight-bold">Cuisine</span></td>
+                                <td id="cuisineId"></td>
+                            </tr>
+                            <tr>
+                                <td><span class="badge badge-pill badge-dark font-weight-bold">Average_rating</span></td>
+                                <td id="average_rating" style=' width: 200px; word-break: break-all; word-wrap: break-word;'></td>
+                            </tr>
+                            <tr>
+                                <td><span class="badge badge-pill badge-dark font-weight-bold">Address</span></td>
+                                <td id="address"></td>
+                            </tr>
+                            <!-- <tr>
+                                <td colspan="2"><button type="button" class="btn btn-warning" id="buy" onClick="buyTicket()"></button></td>
+                            </tr> --> <!-- maybe can add facebook link for more info-->
+                        </table>
+                    </div>
+                </div>
+                <div class="col-xs-12 px-3"><span class="badge badge-pill badge-dark font-weight-bold float-left">About </span>
+                    <p id="r_about" ></p>
+                </div>
+                <div class="col-xs-12 px-3"><span class="badge badge-pill badge-dark font-weight-bold float-left">Menu </span>
+                    <image id="menu" width="400" height="250" style = "padding-left:10px"></image>
+                </div>
+                <div class="col-xs-12 px-3"><span class="badge badge-pill badge-dark font-weight-bold float-left" style = "padding-top: 10;">Photos </span>
+                    <image id="food" width="400" height="250" ></image>
+                </div>
+                <div class="col-xs-12 px-3 text-center">
+                    <iframe src="" frameborder="0" allowfullscreen id="trailer1"></iframe>
+                    <iframe src="" frameborder="0" allowfullscreen id="trailer2"></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary bg-dark" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

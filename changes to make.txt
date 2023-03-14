@@ -1,0 +1,7 @@
+need to use username instead of email for login
+
+
+
+movies --> restaurants
+comments --> reviews
+movie --> restaurant
